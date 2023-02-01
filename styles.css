@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(26, 25, 25);
+}
+main{
+    color: rgb(241, 240, 240);
+}
+
+#cabeça{
+    background-image: linear-gradient(180deg, rgb(58, 58, 58), rgb(36, 36, 36));
+    width:22%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    box-shadow: 3px 1.5px 1px rgb(61, 61, 61)
+}
+#cabeça header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 50px 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 27px;
+    color:rgb(196, 197, 197);
+}
+
+#navegação a {
+    text-decoration: none;
+    color:rgb(241, 240, 240);
+    border-bottom: 2px solid black;
+    border-radius: 1px;
+    padding-bottom: 25px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    box-shadow: 3px;
+}
+a:hover {
+    color:rgb(146, 146, 146)
+}
+.nav-link:nth-of-type(1) {
+    border-top: 2px solid black;
+    padding-top: 25px;
+}
+fieldset{
+    margin-left: 21.7%;
+    border: none;
+}
+fieldset p {
+    text-align: justify;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset p:last-child{
+    padding-bottom: 22px;
+    border-bottom: 1px solid bisque;
+    margin-bottom: -6px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#rodape{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    padding-top: 100px
+}
+
+#rodape a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+#barra {
+    width: 60px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    z-index: 3;
+    position: absolute;
+    left: 100px;
+    top: 680px;
+    border-radius: 5px;
+}
+ol {
+    margin-left: 25%;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#texel {
+    position: absolute;
+    top: 150px;
+    background-color: rgb(190, 190, 190);
+    height: 122px;
+    margin-left: 40px;
+    padding-top: 2px;
+    width: 182px;
+    padding-left: 2px;
+}
+
+#texel img{
+    width: 180px;
+    height: 120px;
+}
+#faça div {
+    background-color: rgb(190, 190, 190);
+    height: 122px;
+    padding-top: 2px;
+    width: 202px;
+    padding-left: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#faça img{
+    width: 200px;
+    height: 120px;
+}
+#área div {
+    background-color: rgba(255, 0, 0, 0.2);
+    height: 30px;
+    border: 1px solid red;
+}
+#área div p {
+    text-align: center;
+    margin-top: 5px;
+}
+#vermes div {
+    background-color: rgb(139, 139, 139);
+    height: 292px;
+    padding-top: 2px;
+    width: 403px;
+    padding-left: 2px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vermes img{
+    width: 200px;
+    height: 290px;
+    object-fit: cover;
+}
